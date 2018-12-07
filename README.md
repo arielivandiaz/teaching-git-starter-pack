@@ -56,16 +56,30 @@ print("Hello World !")
 
 `git status`
 
-4. Creamos el commit.
+4. Antes de realizar el commit es necesario identificarse globalmente en git local para registrar en el repositorio quien realizó los cambios.
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+ 
+
+5. Creamos el commit.
 
 `git commit -m "My first commit !"`
 
-5. Si observamos las modifiacioens ahora veremos que todo fue salvado y no hay nada 
+6. Si observamos las modifiacioens ahora veremos que todo fue salvado y no hay nada 
 pendiente.
 
 `git status`
 
-6. Podemos ver el historial de la siguiente forma.
+7. Podemos ver el historial de la siguiente forma.
 
 `git log` (alt: `git log --oneline`)
 
