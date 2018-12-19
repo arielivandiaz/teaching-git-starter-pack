@@ -2,6 +2,7 @@
 
 # GIT Lessons
 EXTRAS:
+[Fundamental commands for git bash](https://gist.github.com/arielivandiaz/b1d114e44aaa9086d21995ce2fcd3268)
 [How to make a save all changes and commit on a single line.  (Linux / Git bash)](https://gist.github.com/arielivandiaz/9eeb8e1537c0bdc64ed2d9656dc28612)
 
 ## Primeros Pasos
