@@ -1,4 +1,8 @@
+
+
 # GIT Lessons
+EXTRAS:
+[How to make a save all changes and commit on a single line.  (Linux / Git bash)](https://gist.github.com/arielivandiaz/9eeb8e1537c0bdc64ed2d9656dc28612)
 
 ## Primeros Pasos
 
@@ -43,7 +47,7 @@ print("Hello World !")
 
 ### Guardar las modificaciones
 
-#### Creando nuestro priemr commit
+#### Creando nuestro primer commit
 1. Ver las modificaciones realizadas.
 
 `git status`
@@ -58,8 +62,10 @@ print("Hello World !")
 
 4. Antes de realizar el commit es necesario identificarse globalmente en git local para registrar en el repositorio quien realizó los cambios.
 
-*** Please tell me who you are.
 
+* * *
+
+*** Please tell me who you are.
 Run
 
   git config --global user.email "you@example.com"
@@ -67,8 +73,8 @@ Run
 
 to set your account's default identity.
 Omit --global to set the identity only in this repository.
+* * *
 
- 
 
 5. Creamos el commit.
 
@@ -119,7 +125,7 @@ SyntaxError: EOL while scanning string literal
 `git checkout -- hello.py`
 
 
-3. Voir les modifications apportées
+3. Ver las modificaciones realizadas
 
 `git status`
 
@@ -177,32 +183,33 @@ Remplazar `print("Hello World")` por
 
 `git reset HEAD^1`
 
-3. Voir les modifications apportées
+3. Ver las modificaciones realizadas
 
 `git status`
 
-4. Modifier le fichier python qui devrait être sous la forme:
+4. Modificar el archivo en python de la siguiente forma
 
+Original:
 ```
 name = "PUT\_YOUR\_NAME\_HERE"
 print("Hello, my name is", name,"and you ?")
 ```
-par 
 
+Modificado:
 ```
 name = "PUT\_YOUR\_NAME\_HERE"
 print("Hello, my name is", name,". I need to go now, bye !")
 ```
 
-5. Ajouter la modification à l'index
+5. Agregar las modificaciones
 
 `git add hello.py`
 
-6. Commiter
+6. Commitear
 
 `git commit -m "Je dois partir"`
 
-7. Voir les modifications
+7. Ver las modificaciones
 
 `gitk`
 
